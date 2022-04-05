@@ -1,11 +1,42 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-
+    font-size: medium;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.167);
+    color: white;
+    box-shadow: 400px 400px 400px black;
 }
-
-.student{
-    border:1px solid black;
-    padding:10px;
-    width:40%;
-
+img{
+    margin: -5%;
+    padding: 0%;
+    width: 115%;
+    height: 120vh;
+    z-index: 3;
+    position: absolute;
+}
+div{
+    z-index: 5;
+    position: relative;
+    margin-bottom: -30vh;
+    text-shadow: 3px 3px black;
+}
+p.website{
+    color: red;
+    font-size: 30px;
+    display: inline;
+    font-weight: 700;
+    text-shadow: 4px solid black;
+}
+p.lang{
+    display: inline;
+    color: white;
+}
+p.MainTitle{
+    display: inline;
+    font-size: 40px;
+    
+}
+p.SubTitle{
+    display: inline;
+    font-size: 25px;
 }
